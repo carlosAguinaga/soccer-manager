@@ -35,12 +35,14 @@ section {
   margin-bottom: 4rem;
   padding: 1rem;
   background: #0c1926;
-  border-radius: 8px; 
+  border-radius: 8px;
 }
+
 
 .contenedor-jugadores {
   overflow: auto;
   padding-bottom: 2rem;
+  display: flex;
 }
 
 section>div:not(.cancha):not(.contenedor-jugadores) {
@@ -78,7 +80,9 @@ button {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
+  min-width: 250px;
   border-radius: 0.25rem;
+  margin: 10px;
   box-shadow: 0 2px 4px 2px rgba(#000, 0.05);
   border: 1px solid #104266;
 
