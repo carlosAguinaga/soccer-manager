@@ -4,81 +4,80 @@ const initialState = {
   jugadores: [
     {
       id: 1,
-      nombre: "Juan Carlitos",
+      nombre: "Chris Hemsworth",
       foto:
-        "https://api.ed.team/files/avatars/001803a2-cf00-4a26-8bac-c77c15dcb1d2.jpg",
+        "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0ODUwMjQ0NjIwNzI0MDAx/chris-hemsworth-poses-during-a-photo-call-for-thor-ragnarok-on-october-15-2017-in-sydney-australia-photo-by-mark-metcalfe_getty-images-for-disney-square.jpg",
     },
     {
       id: 2,
-      nombre: "Beto Quiroga",
+      nombre: "Fifty Cent",
       foto:
-        "https://api.ed.team/files/avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/50_Cent_AKA_Curtis_Jackson_%28cropped%29.jpg/220px-50_Cent_AKA_Curtis_Jackson_%28cropped%29.jpg",
     },
     {
       id: 3,
-      nombre: "Alejo Garcia",
-      foto:
-        "https://api.ed.team/files/avatars/e58f3a64-aa51-4582-80fa-9bf31c1208b9.jpg",
+      nombre: "Pink",
+      foto: "https://static3.abc.es/Media/201309/17/Pink--644x562.jpg",
     },
     {
       id: 4,
-      nombre: "Juan Disain",
+      nombre: "Eddie Murphy",
       foto:
-        "https://api.ed.team/files/avatars/695b4af3-3cee-4c2f-a165-b329f926b9d3.jpg",
+        "https://i.pinimg.com/564x/eb/c8/c2/ebc8c20d2630618ce26d317ce10a656e.jpg",
     },
     {
       id: 5,
-      nombre: "Alvaro Felipe",
+      nombre: "Gael García",
       foto:
-        "https://i1.wp.com/alvarofelipe.com/wp-content/uploads/2020/08/alvaro.png?fit=1080%2C1080&ssl=1",
+        "https://resize-media.festival-cannes.com/fit-in/384x485/film_film/0001/66/9beedb60df334b5e74d08fbc01b1a53f2fdc847a.jpeg",
     },
     {
       id: 6,
-      nombre: "Alexys Lozada",
+      nombre: "Jared Leto",
       foto:
-        "https://pbs.twimg.com/profile_images/1103454462784520193/c6FT4noY_400x400.jpg",
+        "https://m.guiadelocio.com/var/guiadelocio.com/storage/images/cine/personajes/jared-leto/7251597-8-esl-ES/jared-leto.jpg",
     },
     {
       id: 7,
-      nombre: "Harold Pajuelo",
+      nombre: "Kanye West",
       foto:
-        "https://edteam-media.s3.amazonaws.com/users/avatar/d28d3e47-357c-4b80-bd4f-8ae6584c1ae1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kanye_West_at_the_2009_Tribeca_Film_Festival-2_%28cropped%29.jpg",
     },
     {
       id: 8,
-      nombre: "Manu Rodriguez",
+      nombre: "kelly rowland",
       foto:
-        "https://edteam-media.s3.amazonaws.com/users/avatar/f3d219b9-6756-48ca-8694-f5a339b4e0af.jpeg",
+        "https://www.buenamusica.com/media/fotos/cantantes/biografia/kelly-rowland.jpg",
     },
     {
       id: 9,
-      nombre: "AlejoRodríguez",
+      nombre: "Marc Anthony",
       foto:
-        "https://d3vlf99qeg6bpx.cloudfront.net/content/uploads/2020/12/02124431/Gareth.Bale-1.jpg",
+        "https://havana-live.com/noticias/wp-content/uploads/2016/04/6608-Marc-Anthony.jpg",
     },
     {
       id: 10,
-      nombre: "Andrés Muquinche",
+      nombre: "Ozuna",
       foto:
-        "https://api.ed.team/files/avatars/33f02168-6547-4520-bada-6302388d5880.jpg",
+        "https://elcomercio.pe/resizer/9ltv-vi9yFD_iMr591kzMedCMh8=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/IGFYHC3JD5GLVCMPQK2MYFE3Q4.jpg",
     },
     {
       id: 11,
-      nombre: "Ricardo Otero",
+      nombre: "Don Cheadle",
       foto:
-        "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://m.media-amazon.com/images/M/MV5BNDMxNDM3MzY5N15BMl5BanBnXkFtZTcwMjkzOTY4MQ@@._V1_UY317_CR17,0,214,317_AL_.jpg",
     },
     {
       id: 12,
-      nombre: "Deivis Rivera",
+      nombre: "Rihanna",
       foto:
-        "https://images.pexels.com/photos/2128807/pexels-photo-2128807.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "https://www.infobae.com/new-resizer/doHGKNU-tDaPW2-sg85dfScQU7Y=/420x280/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/D752L7GDWNBFFNJYLHL7JWFDYA.jpg",
     },
     {
       id: 13,
-      nombre: "Percy Tuncar",
+      nombre: "Woody Harrelson",
       foto:
-        "https://api.ed.team/files/avatars/b0801e8a-8bf0-442f-b2ef-0ddaf6ee7aef.png",
+        "https://www.alohacriticon.com/wp-content/uploads/2005/04/woody-harrelson-foto-biografia.jpg",
     },
   ],
   titulares: [],
@@ -86,39 +85,35 @@ const initialState = {
 };
 
 const reducerEntrenador = (state = initialState, action) => {
-  if (action.type === "AGREGAR_TITULAR") {
-    return {
-      ...state,
-      titulares: state.titulares.concat(action.jugador),
-      jugadores: state.jugadores.filter((j) => j.id !== action.jugador.id),
-    };
+ 
+  switch (action.type) {
+    case "AGREGAR_TITULAR":
+      return {
+        ...state,
+        titulares: state.titulares.concat(action.jugador),
+        jugadores: state.jugadores.filter((j) => j.id !== action.jugador.id),
+      };
+    case "AGREGAR_SUPLENTE":
+      return {
+        ...state,
+        suplentes: state.suplentes.concat(action.jugador),
+        jugadores: state.jugadores.filter((j) => j.id !== action.jugador.id),
+      };
+    case "QUITAR_TITULAR":
+      return {
+        ...state,
+        titulares: state.titulares.filter((j) => j.id !== action.jugador.id),
+        jugadores: state.jugadores.concat(action.jugador),
+      };
+    case "QUITAR_SUPLENTE":
+      return {
+        ...state,
+        suplentes: state.suplentes.filter((j) => j.id !== action.jugador.id),
+        jugadores: state.jugadores.concat(action.jugador),
+      };
+    default:
+      return state;
   }
-
-  if (action.type === "AGREGAR_SUPLENTE") {
-    return {
-      ...state,
-      suplentes: state.suplentes.concat(action.jugador),
-      jugadores: state.jugadores.filter((j) => j.id !== action.jugador.id),
-    };
-  }
-
-  if (action.type === "QUITAR_TITULAR") {
-    return {
-      ...state,
-      titulares: state.titulares.filter((j) => j.id !== action.jugador.id),
-      jugadores: state.jugadores.concat(action.jugador),
-    };
-  }
-
-  if (action.type === "QUITAR_SUPLENTE") {
-    return {
-      ...state,
-      suplentes: state.suplentes.filter((j) => j.id !== action.jugador.id),
-      jugadores: state.jugadores.concat(action.jugador),
-    };
-  }
-
-  return state;
 };
 
 export default createStore(reducerEntrenador);

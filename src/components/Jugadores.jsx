@@ -1,5 +1,7 @@
 import { connect } from "react-redux";
 
+
+
 const Jugadores = ({ jugadores, agregarTitular, agregarSuplente }) => {
 
 
